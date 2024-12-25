@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contain">
+            <h1>Month of the year</h1>
+           <form>
+              <input list="choices" type="number" id="choices" min="1" max="12" placeholder="choose a number(1-12)">
+              <datalist id="choices">
+                  <option value="1"></option>
+                  <option value="2"></option>
+                  <option value="3"></option>
+                  <option value="4"></option>
+                  <option value="5"></option>
+                  <option value="6"></option>
+                  <option value="7"></option>
+                  <option value="8"></option>
+                  <option value="9"></option>
+                  <option value="10"></option>
+                  <option value="11"></option>
+                  <option value="12"></option>
+              </datalist>
+           </form>
+           <button class="button" type="button" onclick="checkMonth()">Check Month</button>
+           <p class="result"></p>
+        </div> 
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
